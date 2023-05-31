@@ -2207,3 +2207,15 @@
 31-05 20:23:30 [db3f5783] [class.u.php______________: 354] [DUP_PRO_U::getSqlLock]________________________ Mysql lock duplicator_pro_lock acquired
 31-05 20:23:30 [db3f5783] [class.pack.runner.php____:  86] [DUP_PRO_Package_Runner::init]_________________ Acquired lock so executing package runner init core code
 31-05 20:23:30 [db3f5783] [class.u.php______________: 672] [DUP_PRO_U::releaseSqlLock]____________________ SQL lock duplicator_pro_lock released
+31-05 20:25:43 [7767d854] [class.pack.runner.php____:  54] [DUP_PRO_Package_Runner::init]_________________ Running package runner init
+31-05 20:25:43 [7767d854] [class.u.php______________: 354] [DUP_PRO_U::getSqlLock]________________________ Mysql lock duplicator_pro_lock acquired
+31-05 20:25:43 [7767d854] [class.pack.runner.php____:  86] [DUP_PRO_Package_Runner::init]_________________ Acquired lock so executing package runner init core code
+31-05 20:25:43 [7767d854] [class.u.php______________: 672] [DUP_PRO_U::releaseSqlLock]____________________ SQL lock duplicator_pro_lock released
+31-05 20:37:49 [447e9967] [class.pack.runner.php____:  54] [DUP_PRO_Package_Runner::init]_________________ Running package runner init
+31-05 20:37:49 [447e9967] [class.u.php______________: 354] [DUP_PRO_U::getSqlLock]________________________ Mysql lock duplicator_pro_lock acquired
+31-05 20:37:49 [447e9967] [class.pack.runner.php____:  86] [DUP_PRO_Package_Runner::init]_________________ Acquired lock so executing package runner init core code
+31-05 20:37:49 [447e9967] [class.u.php______________: 672] [DUP_PRO_U::releaseSqlLock]____________________ SQL lock duplicator_pro_lock released
+31-05 20:40:52 [7a3680fe] [class.pack.runner.php____:  54] [DUP_PRO_Package_Runner::init]_________________ Running package runner init
+31-05 20:40:52 [7a3680fe] [class.u.php______________: 354] [DUP_PRO_U::getSqlLock]________________________ Mysql lock duplicator_pro_lock acquired
+31-05 20:40:52 [7a3680fe] [class.pack.runner.php____:  86] [DUP_PRO_Package_Runner::init]_________________ Acquired lock so executing package runner init core code
+31-05 20:40:52 [7a3680fe] [class.u.php______________: 672] [DUP_PRO_U::releaseSqlLock]____________________ SQL lock duplicator_pro_lock released
