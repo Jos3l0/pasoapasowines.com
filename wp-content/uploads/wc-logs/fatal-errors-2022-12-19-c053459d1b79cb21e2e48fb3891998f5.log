@@ -1,0 +1,128 @@
+2022-12-19T21:12:33+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:12:37+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:13:01+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:13:28+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:14:27+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:17:31+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:18:12+00:00 CRITICAL Uncaught TypeError: Elementor\Core\Page_Assets\Loader::enable_assets(): Argument #1 ($assets_data) must be of type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/documents-manager.php(527): Elementor\Core\Base\Document->save()
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#6 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#7 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#8 /home/pasoapaso/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/pasoapaso/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/pasoapaso/public_html/wp-admin/admin-ajax.php(188): do_action()
+#11 {main}
+  thrown en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:19:42+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Elementor\Core\Page_Assets\Loader::enable_assets() must be of the type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-co en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
+2022-12-19T21:20:28+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Elementor\Core\Page_Assets\Loader::enable_assets() must be of the type array, string given, called in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php on line 177 and defined in /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php:52
+Stack trace:
+#0 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/elements-iteration-actions/assets.php(177): Elementor\Core\Page_Assets\Loader->enable_assets()
+#1 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1784): Elementor\Core\Base\Elements_Iteration_Actions\Assets->__construct()
+#2 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(1224): Elementor\Core\Base\Document->get_elements_iteration_actions()
+#3 /home/pasoapaso/public_html/wp-content/plugins/elementor/core/base/document.php(742): Elementor\Core\Base\Document->save_elements()
+#4 /home/pasoapaso/public_html/wp-co en /home/pasoapaso/public_html/wp-content/plugins/elementor/core/page-assets/loader.php en la línea 52
+
